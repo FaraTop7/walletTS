@@ -1,0 +1,28 @@
+
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2pc;
+}
+.styled-input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .styled-input:hover {
+    border-color: #007bff;
+  }
+  
+  .styled-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
